@@ -1,2 +1,5 @@
 server:
   port: 8080
+spring:
+  rlock:
+    address: redis://127.0.0.1:6379
